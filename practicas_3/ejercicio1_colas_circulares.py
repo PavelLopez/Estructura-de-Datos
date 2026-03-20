@@ -1,3 +1,6 @@
+#Desarrollio de un programa en python quesimule una cola de 
+# tamannio 5 para gestionar turnos de atención.
+
 class ColaCircular:
     def __init__(self,capacidad):
         self.capacidad = capacidad
@@ -54,3 +57,9 @@ class ColaCircular:
                 break
             i=(i+1)%self.capacidad
         print("Cola",elementos)
+
+
+laCola = ColaCircular(5)
+laCola.in_que(1)
+
+laCola.see_front
